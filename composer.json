@@ -1,0 +1,21 @@
+{
+    "name": "anarchi.st/anarchi.st",
+    "description": "Educational site about anarchism.",
+    "authors": [
+        {
+            "name": "An Anarchist",
+            "email": "an@anarchi.st"
+        }
+    ],
+    "require": {
+        "aura/router": "^3.0",
+        "psr/http-message": "^1.0",
+        "phpixie/http": "^3.1",
+        "twig/twig": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ana\\": "app/Ana"
+        }
+    }
+}
